@@ -33,7 +33,7 @@
 //         // Find the user in the database using the email
 //         const user = await userData.findOne({ userEMail });
 //         // If user does not exist, return error
-//         if (!user) {
+//         if (!user)
 //             return res.status(404).json({ error: 'User not found' });
 //         }
 //         // Compare the provided password with the hashed password in the database
